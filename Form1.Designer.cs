@@ -51,6 +51,7 @@
             this.cmbDepartment = new System.Windows.Forms.ComboBox();
             this.cmbRoomNo = new System.Windows.Forms.ComboBox();
             this.BtnAdd = new System.Windows.Forms.Button();
+            this.label12 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -259,6 +260,16 @@
             this.BtnAdd.UseVisualStyleBackColor = false;
             this.BtnAdd.Click += new System.EventHandler(this.BtnAdd_Click);
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(109, 621);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(85, 27);
+            this.label12.TabIndex = 23;
+            this.label12.Text = "label12";
+            this.label12.Visible = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 27F);
@@ -266,6 +277,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.IndianRed;
             this.ClientSize = new System.Drawing.Size(667, 741);
+            this.Controls.Add(this.label12);
             this.Controls.Add(this.BtnAdd);
             this.Controls.Add(this.cmbRoomNo);
             this.Controls.Add(this.cmbDepartment);
@@ -325,6 +337,7 @@
         private System.Windows.Forms.ComboBox cmbDepartment;
         private System.Windows.Forms.ComboBox cmbRoomNo;
         private System.Windows.Forms.Button BtnAdd;
+        private System.Windows.Forms.Label label12;
     }
 }
 

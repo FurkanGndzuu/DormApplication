@@ -20,7 +20,7 @@ namespace DormApplication
         }
 
         SqlConnection Connection = new SqlConnection(@"Data Source=DESKTOP-LDMU7VJ\SQLEXPRESS;Initial Catalog=DormOtomation;Integrated Security=True");
-
+        SqlHelper SqlHelper = new SqlHelper();
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -78,10 +78,31 @@ namespace DormApplication
 
                 Connection.Close();
 
-                
+                SqlCommand command2 = new SqlCommand("select StdId from Tbl_DormRegistry2", SqlHelper.Connection());
+                SqlDataReader reader = command2.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    label12.Text = reader[0].ToString();
+                }
+
+                SqlHelper.Connection().Close();
+
+                SqlCommand command3 = new SqlCommand("insert into Tbl_StudentDebt (StudentID,StdFirstName,StdLastName) values(@b1,@b2,@b3)", SqlHelper.Connection());
+
+                command3.Parameters.AddWithValue("@b1", label12.Text);
+                command3.Parameters.AddWithValue("@b2", txtStudentName.Text);
+                command3.Parameters.AddWithValue("@b3", txtStudentSurname.Text);
+
+                command3.ExecuteNonQuery();
+
+                SqlHelper.Connection().Close();
+
+
 
                 MessageBox.Show("Student information Added");
             }
+
             catch (Exception)
             {
                 MessageBox.Show("Registration Failed to Complete");
