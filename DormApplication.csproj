@@ -82,6 +82,26 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DormOtomationDataSet5.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DormOtomationDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DormOtomationDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DormOtomationDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DormOtomationDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DormOtomationDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DormOtomationDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DormOtomationDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DormOtomationDataSet9.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +119,24 @@
     </Compile>
     <Compile Include="FrmBolumler.Designer.cs">
       <DependentUpon>FrmBolumler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GiderGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GiderGuncelle.Designer.cs">
+      <DependentUpon>GiderGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giderler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giderler.Designer.cs">
+      <DependentUpon>Giderler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GidetrListe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GidetrListe.Designer.cs">
+      <DependentUpon>GidetrListe.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -126,6 +164,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmBolumler.resx">
       <DependentUpon>FrmBolumler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GiderGuncelle.resx">
+      <DependentUpon>GiderGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giderler.resx">
+      <DependentUpon>Giderler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GidetrListe.resx">
+      <DependentUpon>GidetrListe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -207,6 +254,50 @@
     </None>
     <None Include="DormOtomationDataSet5.xss">
       <DependentUpon>DormOtomationDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="DormOtomationDataSet6.xsc">
+      <DependentUpon>DormOtomationDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="DormOtomationDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DormOtomationDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DormOtomationDataSet6.xss">
+      <DependentUpon>DormOtomationDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="DormOtomationDataSet7.xsc">
+      <DependentUpon>DormOtomationDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="DormOtomationDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DormOtomationDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DormOtomationDataSet7.xss">
+      <DependentUpon>DormOtomationDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="DormOtomationDataSet8.xsc">
+      <DependentUpon>DormOtomationDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="DormOtomationDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DormOtomationDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DormOtomationDataSet8.xss">
+      <DependentUpon>DormOtomationDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="DormOtomationDataSet9.xsc">
+      <DependentUpon>DormOtomationDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="DormOtomationDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DormOtomationDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DormOtomationDataSet9.xss">
+      <DependentUpon>DormOtomationDataSet9.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

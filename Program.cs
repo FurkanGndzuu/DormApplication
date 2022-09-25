@@ -16,7 +16,7 @@ namespace DormApplication
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new StudentList());
+            Application.Run(new GidetrListe());
         }
     }
 }
